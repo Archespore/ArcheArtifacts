@@ -1,0 +1,1201 @@
+# DATA FOR MAGICAL ITEMS
+#
+# DO NOT CHANGE THESE VALUES UNLESS YOU KNOW WHAT YOU ARE DOING
+# CHANGING VALUES MAY CAUSE CERTAIN PARTS OF THE PLUGIN TO BREAK
+# OR NOT WORK CORRECTLY
+ITEMS:
+  FEATHER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: FEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Feather o' Falling
+      lore:
+      - ''
+      - A feather that softens impacts.
+      - Prevents fall damage from
+      - exceeding half a heart.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  RED_DYE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: RED_DYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Heart of a Cannibal
+      lore:
+      - ''
+      - A heart of a cannibalistic
+      - creature. Gives the user a
+      - chance to restore health
+      - and/or hunger when attacking
+      - an entity.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  BONE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: BONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Wolf's Bone
+      lore:
+      - ''
+      - A bone from a legendary wolf.
+      - Slowly heals, increases the
+      - speed, and prevents you from
+      - damaging your neaby pet wolves.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  COOKIE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: COOKIE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Infinity Cookie
+      lore:
+      - ''
+      - A cookie that never seems to
+      - end, not matter how many bites
+      - you take from it.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  BLAZE_ROD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: BLAZE_ROD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Midas' Rod
+      lore:
+      - ''
+      - A cursed wand from an ancient
+      - king. Allows you to turn iron
+      - nuggets into gold by trading a
+      - bit of health and hunger. Also
+      - grants a 20% chance for any mob
+      - to drop a gold nugget on death.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  DRAGON_EGG:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: DRAGON_EGG
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Dragon Egg
+      lore:
+      - ''
+      - A dragon egg that contains the
+      - soul of a dragon. In exchange
+      - for a diamond and a level, gain
+      - the power trapped inside the
+      - egg and leap into the skies.
+      - Upon landing, damage, slow, and
+      - knock up all nearby entities
+      - depending on distance fallen.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  REDSTONE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: REDSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Player Particles
+      lore:
+      - §cDisabled
+      - ''
+      - Aesthetic item, gives your
+      - player a swirling particle
+      - effect. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  DIAMOND:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: DIAMOND
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Gem of Hope
+      lore:
+      - §cDisabled
+      - ''
+      - A diamond with a holy blessing.
+      - Quick turns stored xp into
+      - health when damaged. Can be
+      - toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  SKELETON_SKULL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SKELETON_SKULL
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6Skeleton Skull
+      lore:
+      - ''
+      - A blessed skeleton skull.
+      - Wearing this skull will grant
+      - you the powers of a skeleton,
+      - allowing you to shoot fully
+      - charged arrows from a bow
+      - instantly.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  GLISTERING_MELON_SLICE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: GLISTERING_MELON_SLICE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Holy Melon
+      lore:
+      - ''
+      - A blessed melon with magical
+      - effects. Reduces damage from
+      - poison, wither, and dragon's
+      - breath by half, and prevents
+      - starvation damage.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  GLOWSTONE_DUST:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: GLOWSTONE_DUST
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Soothing Dust
+      lore:
+      - ''
+      - A magical dust with healing
+      - properties. Increases natural
+      - health regen from 1/2 a heart
+      - to 3/4 a heart.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  SLIME_BALL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SLIME_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Ball of Slime
+      lore:
+      - ''
+      - A ball of slime that devours
+      - any and all items. Killing a
+      - mob will put the items and xp
+      - directly into your inventory.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  WHEAT_SEEDS:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: WHEAT_SEEDS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Photosynthetic Seeds
+      lore:
+      - ''
+      - Magical seeds that make you
+      - feel saturated. Slowly fills
+      - your hunger and saturation.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  GLOWSTONE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: GLOWSTONE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Portable Casino
+      lore:
+      - ''
+      - A magical machine that allows
+      - the user to test their luck!
+      - Trade 3 emeralds and 1 level
+      - for a 20% chance to receive a
+      - diamond!
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  WITHER_ROSE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: WITHER_ROSE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Wither's Curse
+      lore:
+      - ''
+      - A wither rose cursed by a
+      - wither. In exchange for 1 gold
+      - block and a level, unleash the
+      - curse blinding and slowing all
+      - neaby entities for 15 seconds
+      - and launching a wither skull
+      - in their direction.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  PRISMARINE_CRYSTALS:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: PRISMARINE_CRYSTALS
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Arrow Fireworks
+      lore:
+      - §cDisabled
+      - ''
+      - Aesthetic item, gives your
+      - arrows a firework effect upon
+      - hitting a block or entity.
+      - Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  NETHER_BRICK:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: NETHER_BRICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Hellish Aura
+      lore:
+      - §cDisabled
+      - ''
+      - A nether brick that carries a
+      - hellish aura. Damages all nearby
+      - entities every 2.5 seconds in
+      - a 5 block radius by 1/2 a heart.
+      - Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  ZOMBIE_HEAD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: ZOMBIE_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6Zombie Head
+      lore:
+      - ''
+      - A blessed zombie head. Wearing
+      - this head will grant you the
+      - powers of a zombie, healing you
+      - from instant damage potions,
+      - and providing a 2% damage
+      - reduction for each living entity
+      - within a 12 block radius.
+      - (Max damage reduction 50%)
+      enchants:
+        ARROW_DAMAGE: 1
+      attribute-modifiers:
+        GENERIC_ARMOR:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 3.0
+          name: generic.armor
+          slot: HEAD
+          uuid: 00000000-0000-96c2-0000-000000027512
+          operation: 0
+        GENERIC_ARMOR_TOUGHNESS:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 2.0
+          name: generic.armorToughness
+          slot: HEAD
+          uuid: 00000000-0001-4345-0000-00000002c2bf
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  MAGMA_CREAM:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: MAGMA_CREAM
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Boiling Blood
+      lore:
+      - ''
+      - A ball of boiling blood.
+      - Prevents all forms of fire
+      - damage and allows the wielder
+      - to swim in lava.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  SUNFLOWER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SUNFLOWER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Lively Sunflower
+      lore:
+      - ''
+      - A sunflower that radiates with
+      - energy during the day. Slowly
+      - heals the player, reduces damage
+      - taken, and increased damage
+      - dealt by 1/2 a heart during the
+      - day and while in direct
+      - sunlight.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  SHULKER_SHELL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SHULKER_SHELL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Ender Shulker
+      lore:
+      - ''
+      - A shulker shell infused with
+      - energy from the void. Allows
+      - you to access your enderchest
+      - from anywhere.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  SUGAR:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SUGAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Sugar Rush
+      lore:
+      - ''
+      - A pile of sugar that gives a
+      - sweet taste to any food you
+      - eat. Gives you movement and
+      - attack speed upon eating food.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  STICK:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: STICK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6§kStick
+      lore:
+      - ''
+      - A magical wand that allows for
+      - psuedo-flight. Uses 1 level to
+      - summon gusts of wind that will
+      - push you in the direction you
+      - are looking. An engraving is in
+      - the wand that says,
+      - '"Beware of fall damage!"'
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  END_CRYSTAL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: END_CRYSTAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Banner of Command
+      lore:
+      - ''
+      - An end crystal with great
+      - energy. In exchange for a level
+      - and 1 gold ingot, rally nearby
+      - entities granting them an
+      - accelerating speed boost and
+      - ending with a resistance buff.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  GHAST_TEAR:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: GHAST_TEAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Mob Tears
+      lore:
+      - §cDisabled
+      - ''
+      - Aesthetic item, plays a random
+      - mob damage sound when you take
+      - damage. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  CHARCOAL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: CHARCOAL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Smoke Screen
+      lore:
+      - §cDisabled
+      - ''
+      - A blinding smoke screen that
+      - blinds entities. Attacking
+      - gives the entity blindness
+      - and slowness for 5 seconds in
+      - exchange for a small amount of
+      - xp. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  WITHER_SKELETON_SKULL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: WITHER_SKELETON_SKULL
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6Wither Skeleton Skull
+      lore:
+      - ''
+      - A blessed wither skull. Wearing
+      - this skull will grant you the
+      - powers of a wither skeleton,
+      - applying wither to all entities
+      - you attack and providing full
+      - resistance to fire damage.
+      enchants:
+        ARROW_DAMAGE: 1
+      attribute-modifiers:
+        GENERIC_ATTACK_DAMAGE:
+        - ==: org.bukkit.attribute.AttributeModifier
+          amount: 4.0
+          name: generic.attackDamage
+          slot: HEAD
+          uuid: 00000000-0001-8012-0000-00000001f40b
+          operation: 0
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  GUNPOWDER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: GUNPOWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Explosive Powder
+      lore:
+      - ''
+      - A magical pile of gunpowder
+      - that nullifies damage from
+      - explosions. Reduces damage
+      - from explosions by 33%.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  FERMENTED_SPIDER_EYE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: FERMENTED_SPIDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Eye of Night
+      lore:
+      - ''
+      - A spider eye that radiates with
+      - energy during the night. Slowly
+      - heals the player, reduces damage
+      - taken, and increased damage
+      - dealt by 1/2 a heart during the
+      - night and while in direct
+      - moonlight.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  RABBIT_FOOT:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: RABBIT_FOOT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Rabbit's Foot
+      lore:
+      - ''
+      - The foot of a rabbit that gives
+      - you special powers. Sneaking
+      - before jumping will allow you
+      - to perform a stronger jump.
+      - Sneaking before hitting the
+      - ground will reduce fall damage.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  BLAZE_POWDER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: BLAZE_POWDER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Adrenaline Powder
+      lore:
+      - ''
+      - Enchanted blaze powder that
+      - fills the user with adrenaline.
+      - Attacking a mob will grant a
+      - short burst of attack speed.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  POTION:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: POTION
+    meta:
+      ==: ItemMeta
+      meta-type: POTION
+      display-name: §6Mysterious Potion
+      lore:
+      - ''
+      - A mysterious potion that gives
+      - unpredictable results. Drink
+      - at your own risk!
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      - HIDE_POTION_EFFECTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+      potion-type: minecraft:thick
+  END_PORTAL_FRAME:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: END_PORTAL_FRAME
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Void Portal
+      lore:
+      - ''
+      - A portable portal that allows
+      - temporary access to the void.
+      - In exchange for 3 ender pearls
+      - and a level, the user will,
+      - after a short delay, teleport
+      - to all nearby entities and
+      - damage them.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  LAPIS_BLOCK:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: LAPIS_BLOCK
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Enchanter's Stone
+      lore:
+      - §cDisabled
+      - ''
+      - A blessed block of lapis used
+      - by enchanters. Turns lapis into
+      - xp over time. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  ENDER_EYE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: ENDER_EYE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8All-Seeing Eye
+      lore:
+      - §cDisabled
+      - ''
+      - An all-seeing eye. Grants you
+      - infinite night vision and
+      - reveals all entities within a
+      - 16 block radius. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  CREEPER_HEAD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: CREEPER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6Creeper Head
+      lore:
+      - ''
+      - A blessed creeper head. Wearing
+      - this head will grant you the
+      - powers of a creeper, exploding
+      - the closest living entity within
+      - an 8 block radius every 2.5
+      - seconds.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  QUARTZ:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: QUARTZ
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Resistance Crystal
+      lore:
+      - ''
+      - An enchanted crystal that
+      - strengthens a player's
+      - vitality. Reduces ALL damage
+      - by 1/4 a heart.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  CLAY_BALL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: CLAY_BALL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Miner's Blessing
+      lore:
+      - ''
+      - A clay ball that radiates with
+      - energy while underground. Slowly
+      - heals the player, reduces damage
+      - taken, and increased damage
+      - dealt by 1/2 a heart when the
+      - user is not in contact with any
+      - light from the sky.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  ENDER_PEARL:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: ENDER_PEARL
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Ender Pearl Mastery
+      lore:
+      - ''
+      - An ender pearl that increases
+      - your affinity to the void.
+      - Stops all damage from ender
+      - pearls and gives you a short
+      - speed and resistance boost
+      - upon teleporting.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  FURNACE_MINECART:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: FURNACE_MINECART
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Chase Down
+      lore:
+      - ''
+      - A furnace minecart with magical
+      - properties. Attacking a mob
+      - will grant a short burst of
+      - movement speed.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  DANDELION:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: DANDELION
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Dandelion of Purification
+      lore:
+      - ''
+      - A blessed dandelion with the
+      - ability to cleanse. Will clear
+      - all potion effects, good and
+      - bad, from the user at the cost
+      - of a single level.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  LILY_OF_THE_VALLEY:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: LILY_OF_THE_VALLEY
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Flower of Immortality
+      lore:
+      - ''
+      - A flower given as a gift from
+      - god. In exchange for a diamond
+      - and 3 levels, allows the user
+      - to place a field of immortality.
+      - Any entities inside the field
+      - cannot die by any means.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  WHEAT:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: WHEAT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Portable Farm
+      lore:
+      - §cDisabled
+      - ''
+      - A mysterious peice of wheat
+      - that helps nearby plants grow.
+      - Turns seeds into wheat over
+      - time. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  PAPER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: PAPER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Knowledge Fragment
+      lore:
+      - §cDisabled
+      - ''
+      - A magical scroll with the
+      - ability to extract knowledge
+      - from an entity. Killing an
+      - entity Increases xp amount by
+      - 200% in exchange for a lapis.
+      - Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  PLAYER_HEAD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: PLAYER_HEAD
+    meta:
+      ==: ItemMeta
+      meta-type: SKULL
+      display-name: §6Archespore's Head
+      lore:
+      - ''
+      - A replica skull of a legendary
+      - hero. Wearing this head will
+      - grant you a portion of the
+      - hero's power, attacking an
+      - entity that's below 25% health
+      - will instantly kill it.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      internal: H4sIAAAAAAAAAE2Py26CQBiF/zZpQkkfo1uSAQaURRe2Bh0iQ1Fuw47LoI6DNQpGeK4+YFl2eb7zncVRAVR42516Kb+vP81RcgWeSQ3vuNAN257PNcupSw2bGGtFYyDNmZkzXccGdnRTBXUaXfi1O/LbKygdf3T9ld9UAHhS4CUpZM/hlw8eyrMDqjNPVgOxpxztkAyIuMzIORnKL2KTdurXC3szOP9cqytSSzLTO+TnsC/bBG3MreTrrV618T1YhYhG7iFv/YFFrqBiMebR3sijE6LCk8yIB19QScf65Ldu66fEDNL4wcaJL5nORIXpKpycvcWiT5EvCaY7z2ky9DE9gD9uGf+THAEAAA==
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  LEATHER:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: LEATHER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Toughened Leather
+      lore:
+      - ''
+      - A piece of leather that never
+      - tears. Reduces damage from
+      - contact, thorns, lightning,
+      - and falling blocks by half.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  PRISMARINE_SHARD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: PRISMARINE_SHARD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Shard of the Ocean
+      lore:
+      - ''
+      - A shard that radiates with
+      - energy while in water. Slowly
+      - heals the player, reduces damage
+      - taken, and increased damage
+      - dealt by 1/2 a heart when the
+      - user is in contact with water.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  SADDLE:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: SADDLE
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Speed Saddle
+      lore:
+      - ''
+      - A special saddle created for
+      - master horseback riders.
+      - Increases your speed on horses
+      - by 40% and gives your horse
+      - regeneration while riding.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  FLINT:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: FLINT
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Countering Stone
+      lore:
+      - ''
+      - A stone with sharp edges. Gives
+      - a 20% chance to counter-attack
+      - for 1/4 of the damage upon
+      - being attacked by an entity.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  EMERALD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: EMERALD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Lucky Emerald
+      lore:
+      - ''
+      - An emerald that's said to
+      - grant the holder great luck.
+      - Grants the user luck for a
+      - minute in exchange for a level
+      - and emerald block. This effect
+      - can be used while the user
+      - already has luck for double the
+      - price to gain extra luck.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  OAK_SAPLING:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: OAK_SAPLING
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Nature's Blessing
+      lore:
+      - ''
+      - A sapling imbued with powers
+      - from a druid. in exchange for
+      - 2.5 hearts and 3 levels, allows
+      - the user to place an enchanted
+      - field that provides strength,
+      - speed, haste, and regeneration
+      - to all players inside for 30
+      - seconds.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+  BREWING_STAND:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: BREWING_STAND
+    meta:
+      ==: ItemMeta
+      meta-type: TILE_ENTITY
+      display-name: §8Witch's Brewing Stand
+      lore:
+      - §cDisabled
+      - ''
+      - A brewing stand used by a
+      - notorious witch. Turns blocks
+      - of nether wart into various
+      - potions over time. Can be
+      - toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+      blockMaterial: BREWING_STAND
+  LEAD:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: LEAD
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §8Grapple Hook
+      lore:
+      - §cDisabled
+      - ''
+      - A grappling hook that can be
+      - attached to your arrows. Causes
+      - mobs hit by your arrows to be
+      - pulled towards you, but reduces
+      - the velocity of arrows that you
+      - shoot. Can be toggled.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b
+        archeartifacts:magical_activated: 0b
+  NETHER_STAR:
+    ==: org.bukkit.inventory.ItemStack
+    v: 1952
+    type: NETHER_STAR
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: §6Divine Intervention
+      lore:
+      - ''
+      - A blessing from god given to
+      - a mighty hero to protect him
+      - in battle. Causes all damage
+      - that exceeds 10% of your
+      - current health to be reduced
+      - by 50%. Also grants your
+      - attacks additional damage equal
+      - to 8% of the entity's max health.
+      enchants:
+        ARROW_DAMAGE: 1
+      ItemFlags:
+      - HIDE_ENCHANTS
+      PublicBukkitValues:
+        archeartifacts:magical_item: 1b

@@ -1,0 +1,31 @@
+# Generation settings for the magical items, here you can specify how and IF
+# the should naturally spawn in the world.
+#
+# SKY-FALL: Has a chance to spawn at night near a random player as an item
+#           that falls from the sky to the ground. Nearby players are notified
+#           and a the item creates a trail as it falls.
+#           (Chance is the % of an item spawning each night)
+#
+# BURIED-RELIQUARY: Spawns random small dungeons underground during map
+#                   generation that contains a random magical item inside
+#                   along with mobs/mob spawners
+#                   (Chance is the % of a dungeon spawning in each chunk)
+#                   (100% Does NOT guarantee one in each chunk if it can't
+#                    find a valid dungeon spawning location.)
+#
+# MOB-DEATH: Has a chance to spawn whenever a player kills an entity.
+#            (Chance is the % of an item spawning each kill)
+#            (Spawner nerf reduces the chance of a mob dropping an item if
+#             it was spawned froma monster spawner.)
+#
+GENERATION:
+  SKY-FALL:
+    Enabled: true
+    Chance: 5
+  BURIED-RELIQUARY:
+    Enabled: true
+    Chance: .5
+  MOB-DEATH:
+    Enabled: true
+    Chance: .1
+    SpawnerNerf: true

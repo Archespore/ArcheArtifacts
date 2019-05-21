@@ -1,0 +1,16 @@
+main: jp.archeartifacts.main.ArcheArtifacts
+version: 1.0
+name: ArcheArtifacts
+load: STARTUP
+api-version: 1.14
+
+commands:
+  aartifactsreload:
+    description: Reloads the config files for ArcheArtifacts.
+    usage: /aartifactsreload
+  givemagicitem:
+    description: Gives the specified magic item to the specified player
+    usage: /givemagicitem [player] [material]
+  summonmagicitem:
+    description: Summons a magic item that falls from the sky near the specified player
+    usage: /summonmagicitem [player] [material]
